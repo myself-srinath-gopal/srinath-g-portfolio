@@ -41,7 +41,7 @@ const Contact = () => {
                                 <p class="text-black">github.com/myself-srinath-gopal</p>
                             </div>
                         </Link>
-                        <Link to="www.linkedin.com/in/srinath-g0203" className="bg-transparent rounded-lg p-6 flex items-center border border-gray-400 hover:border-orange-600 transition-colors duration-200">
+                        <Link to="https://www.linkedin.com/in/srinath-g0203" className="bg-transparent rounded-lg p-6 flex items-center border border-gray-400 hover:border-orange-600 transition-colors duration-200">
                             <div class="text-orange-600 mr-4">
                                 <BsLinkedin className='w-6 h-6' />
                             </div>
@@ -52,9 +52,9 @@ const Contact = () => {
                         </Link>
                     </div>
                     <div className="text-center">
-                        <button className="cta relative overflow-hidden cursor-pointer rounded-full w-fit py-2 sm:py-3 md:py-5 px-3 sm:px-5 md:px-7 border border-orange-600 group">
+                        <Link to={"mailto:myselfsrinathgopal@gmail.com"} className="inline-block cta relative overflow-hidden cursor-pointer rounded-full w-fit py-2 sm:py-3 md:py-5 px-3 sm:px-5 md:px-7 border border-orange-600 group">
                             <span className="relative z-10 text-base sm:text-xl sm:font-medium group-hover:text-white transition-colors duration-300">Send an Email</span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
