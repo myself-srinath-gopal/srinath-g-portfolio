@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Bricolage Grotesque', sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-display)
+  }
+
+  body {
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+
+  h1 {
+    @apply text-4xl font-semibold md:text-5xl xl:text-7xl 2xl:text-8xl;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold md:text-5xl lg:text-6xl 2xl:text-[4.1rem];
+  }
+
+  h3 {
+    @apply text-2xl font-semibold md:text-3xl lg:text-4xl 2xl:text-5xl;
+  }
+
+  h4 {
+    @apply text-4xl;
+  }
+
+  h5 {
+    @apply text-xl font-semibold xl:text-2xl;
+  }
+
+  h6 {
+    @apply text-sm md:text-base xl:text-xl;
+  }
+
+}
+
+.cta::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: orangered;
+  transition: height 0.3s ease;
+}
+
+.cta:hover::after {
+  height: 100%;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #868686;
+}
+
+input,
+textarea {
+  border-bottom: 1px solid #c0d8e0;
+  width: 100%;
+  padding-block: .5rem;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 1px solid #fe4300;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+.sidebar {
+  transform: translateX(-100%);
+  transition: all .2s ease;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+html {
+  scroll-behavior: smooth;
+}
