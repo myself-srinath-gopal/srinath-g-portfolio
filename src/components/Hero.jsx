@@ -24,11 +24,11 @@ const Hero = () => {
                                 Frontend-focused React.js Developer with <strong className="text-orange-600">2 years</strong> of experience delivering scalable, user-friendly web apps using React, Redux, and modern JavaScript. Dedicated to writing clean, efficient, and maintainable code.
                             </p>
                         </div>
-                        <img src="images/hero-img.jpg" alt="" className="block lg:hidden" width={685} height={650} />
+                        <img lazy={true} src="images/hero-img.jpg" alt="" className="block lg:hidden" width={685} height={650} />
                     </div>
                 </div>
                 <div className="absolute z-999 right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:w-187.5 2xl:h-171.5">
-                    <img lazy className="absolute top-0 right-0 z-1" width={685} height={650} src="images/hero-img.jpg" alt="" />
+                    <img lazy={true} className="absolute top-0 right-0 z-1" width={685} height={650} src="images/hero-img.jpg" alt="" />
                 </div>
             </section>
             <section>
@@ -50,7 +50,7 @@ const Hero = () => {
                                 </Link>
                             </div>
                             <div className="flex items-center justify-start md:justify-end gap-4 md:gap-2.5">
-                                <Link to="www.linkedin.com/in/srinath-g0203">
+                                <Link to="https://www.linkedin.com/in/srinath-g0203">
                                     <IoLogoLinkedin className='w-6 h-6 sm:w-8' />
                                 </Link>
                             </div>

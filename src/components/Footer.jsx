@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link as ScrollLink } from 'react-scroll'
 
 const Footer = () => {
     return (
@@ -9,7 +9,7 @@ const Footer = () => {
                     <div class="relative flex items-center w-full">
                         <div class="grow h-px bg-gray-600"></div>
                         <div class="mx-4">
-                            <Link className="bg-orange-600 p-4 w-10 h-10 sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-white font-semibold text-lg sm:text-3xl" to="/">S</Link>
+                            <ScrollLink to='hero' smooth={true} duration={600} className="bg-orange-600 p-4 w-10 h-10 text-xl sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-white font-semibold sm:text-4xl cursor-pointer">S</ScrollLink>
                         </div>
                         <div class="grow h-px bg-gray-600"></div>
                     </div>
