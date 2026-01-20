@@ -36,7 +36,7 @@ const About = () => {
                                 </svg>
                             </div>
                             <div className="w-full lg:max-w-2xl flex-1">
-                                <p className="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                <p className="text-gray-500 text-base md:text-lg">I’m a passionate React.js Developer with 2 years of hands-on experience building modern, responsive, and user-focused web applications. I enjoy transforming ideas into clean, scalable interfaces using React, JavaScript, and modern frontend tools.</p>
                                 <div className="py-8 md:py-0">
                                     <div className="flex items-center gap-2 md:gap-6">
                                         <h6 className="text-7xl sm:text-9xl md:text-[10rem]">02</h6>

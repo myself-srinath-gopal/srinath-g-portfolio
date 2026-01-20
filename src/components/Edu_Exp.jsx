@@ -29,7 +29,7 @@ const Edu_Exp = () => {
                             </div>
                             <div className="pl-8 sm:pl-0">
                                 <p className="leading-relaxed text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, laborum, sed quidem aperiam nihil ut iusto
+                                    Completed Higher Secondary education with a strong foundation in analytical thinking and computer fundamentals.
                                 </p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const Edu_Exp = () => {
                             </div>
                             <div className="pl-8 sm:pl-0">
                                 <p className="leading-relaxed text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, laborum, sed quidem aperiam nihil ut iusto
+                                    Earned a Bachelor’s degree with exposure to programming concepts and software development fundamentals.
                                 </p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const Edu_Exp = () => {
                             </div>
                             <div className="pl-8 sm:pl-0">
                                 <p className="leading-relaxed text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, laborum, sed quidem aperiam nihil ut iusto
+                                    Completed a Master’s degree with a focus on advanced computing concepts and real-world problem solving.
                                 </p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const Edu_Exp = () => {
                             </div>
                             <div className="pl-8 sm:pl-0">
                                 <p className="leading-relaxed text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, laborum, sed quidem aperiam nihil ut iusto
+                                    Working as a React.js Developer, contributing to the development of scalable and responsive web applications using React.js, Redux, and modern JavaScript.
                                 </p>
                             </div>
                         </div>

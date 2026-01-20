@@ -22,16 +22,16 @@ const Cert_Skills = () => {
                                     </div>
                                     <div className="flex-1 flex flex-col gap-2">
                                         <h5 className='font-normal'>Modern JS Botcamp Course - <span className="text-orange-600">UDEMY (2023)</span></h5>
-                                        <p className="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, commodi. Dolorem sed modi in minima deserunt voluptatibus</p>
+                                        <p className="text-gray-500">Gained strong proficiency in JavaScript (ES6+), asynchronous programming, DOM manipulation, and modern development best practices.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-6">
-                                    <div class="mt-2.5 w-3.5 h-3.5 rounded-full border bg-white flex items-center justify-center border-black">
+                                    <div className="mt-2.5 w-3.5 h-3.5 rounded-full border bg-white flex items-center justify-center border-black">
                                         <div className="w-1.5 h-1.5 rounded-full bg-black" />
                                     </div>
                                     <div className="flex-1 flex flex-col gap-2">
                                         <h5 className='font-normal'>Advanced CSS and Saas - <span className="text-orange-600">UDEMY (2024)</span></h5>
-                                        <p className="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, commodi. Dolorem sed modi in minima deserunt voluptatibus</p>
+                                        <p className="text-gray-500">Developed advanced skills in CSS, Flexbox, Grid, responsive design, and Sass, focusing on scalable and maintainable UI styling.</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-6">
@@ -40,7 +40,7 @@ const Cert_Skills = () => {
                                     </div>
                                     <div className="flex-1 flex flex-col gap-2">
                                         <h5 className='font-normal'>Modern React with Redux - <span className="text-orange-600">UDEMY (2023)</span></h5>
-                                        <p className="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, commodi. Dolorem sed modi in minima deserunt voluptatibus</p>
+                                        <p className="text-gray-500">Hands-on experience building React.js applications using Redux, component-based architecture, hooks, and state management patterns.</p>
                                     </div>
                                 </div>
                             </div>
