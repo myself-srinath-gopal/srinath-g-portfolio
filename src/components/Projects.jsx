@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
     return (
@@ -11,42 +12,42 @@ const Projects = () => {
                             <p className="text-xl text-orange-500">( 04 )</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 xl:gap-y-12">
-                            <div className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            <Link to={"https://puzzle-verse-one.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
-                                    <img src="images/proj-1.webp" alt="" className="rounded-lg w-full h-full object-cover" />
+                                    <img src="images/proj-1.png" alt="" className="rounded-lg w-full h-full" />
                                 </div>
                                 <div className="flex flex-col gap-0 xl:gap-2">
                                     <div className="flex items-center justify-between">
                                         <h5 className='font-normal'>E-Commerce Website</h5>
                                         <img src="images/arrow-right.svg" alt="" width={30} height={30} />
                                     </div>
-                                    <p className="text-gray-500">Client: <span className="text-orange-600">Foodmart</span></p>
+                                    <p className="text-gray-500">Client: <span className="text-orange-600">PuzzleVerse</span></p>
                                 </div>
-                            </div>
-                            <div className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            </Link>
+                            <Link to={"https://email-analytics-dashboard.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
-                                    <img src="images/proj-2.webp" alt="" className="rounded-lg w-full h-full object-cover" />
+                                    <img src="images/proj-2.png" alt="" className="rounded-lg w-full h-full object-cover" />
                                 </div>
                                 <div className="flex flex-col gap-0 xl:gap-2">
                                     <div className="flex items-center justify-between">
                                         <h5 className='font-normal'>Admin Dashboard</h5>
                                         <img src="images/arrow-right.svg" alt="" width={30} height={30} />
                                     </div>
-                                    <p className="text-gray-500">Client: <span className="text-orange-600">Berry</span></p>
+                                    <p className="text-gray-500">Client: <span className="text-orange-600">DeliverIQ</span></p>
                                 </div>
-                            </div>
-                            <div className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            </Link>
+                            <Link to={"https://binaro-1163z0qn3-myself-srinath-gopals-projects.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
                                     <img src="images/proj-3.png" alt="" className="rounded-lg w-full h-full object-cover" />
                                 </div>
                                 <div className="flex flex-col gap-0 xl:gap-2">
                                     <div className="flex items-center justify-between">
-                                        <h5 className='font-normal'>Blogging Website</h5>
+                                        <h5 className='font-normal'>Business Website</h5>
                                         <img src="images/arrow-right.svg" alt="" width={30} height={30} />
                                     </div>
-                                    <p className="text-gray-500">Client: <span className="text-orange-600">Lifestyle Mag</span></p>
+                                    <p className="text-gray-500">Client: <span className="text-orange-600">Binaro Events</span></p>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
