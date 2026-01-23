@@ -33,10 +33,10 @@ const Projects = () => {
                                         <h5 className='font-normal'>Admin Dashboard</h5>
                                         <img src="images/arrow-right.svg" alt="" width={30} height={30} />
                                     </div>
-                                    <p className="text-gray-500">Client: <span className="text-orange-600">DeliverIQ</span></p>
+                                    <p className="text-gray-500">Client: <span className="text-orange-600">BitSignal</span></p>
                                 </div>
                             </Link>
-                            <Link to={"https://binaro-1163z0qn3-myself-srinath-gopals-projects.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            <Link to={"https://binaro.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
                                     <img src="images/proj-3.png" alt="" className="rounded-lg w-full h-full object-cover" />
                                 </div>
