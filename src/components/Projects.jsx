@@ -24,7 +24,7 @@ const Projects = () => {
                                     <p className="text-gray-500">Client: <span className="text-orange-600">PuzzleVerse</span></p>
                                 </div>
                             </Link>
-                            <Link to={"https://email-analytics-dashboard.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            <Link to={"https://bitsignal-zeta.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
                                     <img src="images/proj-2.png" alt="" className="rounded-lg w-full h-full object-cover" />
                                 </div>
