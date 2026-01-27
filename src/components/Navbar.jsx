@@ -56,9 +56,9 @@ const Navbar = () => {
                                 <RiMenu4Fill />
                             </button>
                             <ScrollLink to='hero' smooth={true} duration={600} className="bg-orange-600 p-4 w-10 h-10 text-xl sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-white font-semibold sm:text-4xl cursor-pointer">S</ScrollLink>
-                            <button className="cta relative overflow-hidden cursor-pointer rounded-full w-fit py-2 sm:py-3 md:py-5 px-3 sm:px-5 md:px-7 border border-orange-600 group">
+                            <a href="/Srinath_Resume.pdf" download className="cta relative overflow-hidden cursor-pointer rounded-full w-fit py-2 sm:py-3 md:py-5 px-3 sm:px-5 md:px-7 border border-orange-600 group">
                                 <span className="relative z-10 text-base sm:text-xl sm:font-medium group-hover:text-white transition-colors duration-300">Download Resume</span>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

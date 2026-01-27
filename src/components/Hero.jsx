@@ -21,7 +21,7 @@ const Hero = () => {
                                 <h1>React JS Developer</h1>
                             </div>
                             <p className="max-w-md xl:max-w-xl text-gray-500 text-base md:text-lg">
-                                React.js Developer with <strong className="text-orange-600">2 years</strong> of professional experience building scalable, responsive web applications using React.js, Redux, JavaScript (ES6+), HTML, CSS, and REST APIs.
+                                React.js Developer with <strong className="text-orange-600">2.8 years</strong> of professional experience building scalable, responsive web applications using React.js, Redux, JavaScript (ES6+), HTML, CSS, and REST APIs.
                             </p>
                         </div>
                         <img lazy={true} src="images/hero-img.jpg" alt="" className="block lg:hidden" width={685} height={650} />

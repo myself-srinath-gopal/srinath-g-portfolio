@@ -39,14 +39,14 @@ const About = () => {
                                 <p className="text-gray-500 text-base md:text-lg">I’m a passionate React.js Developer with 2 years of hands-on experience building modern, responsive, and user-focused web applications. I enjoy transforming ideas into clean, scalable interfaces using React, JavaScript, and modern frontend tools.</p>
                                 <div className="py-8 md:py-0">
                                     <div className="flex items-center gap-2 md:gap-6">
-                                        <h6 className="text-7xl sm:text-9xl md:text-[10rem]">02</h6>
+                                        <h6 className="text-7xl sm:text-9xl md:text-[10rem]">2.8</h6>
                                         <span className="text-base sm:text-xl md:text-4xl text-orange-600">years of excellence(*)</span>
                                     </div>
                                 </div>
                                 <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4 border-t border-[#d7dcdd]">
                                     <div className="flex items-center gap-3.5">
                                         <IoLanguageOutline size={30} className="text-orange-600" />
-                                        <p className="text-base xl:text-xl">Language</p>
+                                        <p className="text-base xl:text-xl">Languages</p>
                                     </div>
                                     <div className="flex items-center flex-wrap justify-center gap-2.5">
                                         <p className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl text-gray-500">English</p>
