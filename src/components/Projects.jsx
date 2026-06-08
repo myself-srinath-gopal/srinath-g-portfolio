@@ -12,7 +12,7 @@ const Projects = () => {
                             <p className="text-xl text-orange-500">( 04 )</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 xl:gap-y-12">
-                            <Link to={"https://puzzle-verse-one.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            <Link to={"https://puzzle-verse-one.vercel.app/"} target="_blank" rel="noopener noreferrer" className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
                                     <img src="images/proj-1.png" alt="" className="rounded-lg w-full h-full" />
                                 </div>
@@ -24,7 +24,7 @@ const Projects = () => {
                                     <p className="text-gray-500">Client: <span className="text-orange-600">PuzzleVerse</span></p>
                                 </div>
                             </Link>
-                            <Link to={"https://bitsignal-zeta.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            <Link to={"https://bitsignal-zeta.vercel.app/"} target="_blank" rel="noopener noreferrer" className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
                                     <img src="images/proj-2.png" alt="" className="rounded-lg w-full h-full object-cover" />
                                 </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                                     <p className="text-gray-500">Client: <span className="text-orange-600">BitSignal</span></p>
                                 </div>
                             </Link>
-                            <Link to={"https://binaro.vercel.app/"} className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
+                            <Link to={"https://binaro.vercel.app/"} target="_blank" rel="noopener noreferrer" className="flex flex-col gap-3 xl:gap-6 cursor-pointer">
                                 <div>
                                     <img src="images/proj-3.png" alt="" className="rounded-lg w-full h-full object-cover" />
                                 </div>

@@ -2,6 +2,12 @@ import React from 'react'
 import { IoLanguageOutline } from 'react-icons/io5'
 
 const About = () => {
+
+    const startDate = new Date(2023, 3, 1)
+    const now = new Date()
+    const totalMonths = (now.getFullYear() - startDate.getFullYear()) * 12 + (now.getMonth() - startDate.getMonth())
+    const experienceYears = Math.round(totalMonths / 12)
+
     return (
         <section id='about'>
             <div className="relative bg-[#f0f0f0] py-10 md:py-32">
@@ -36,10 +42,10 @@ const About = () => {
                                 </svg>
                             </div>
                             <div className="w-full lg:max-w-2xl flex-1">
-                                <p className="text-gray-500 text-base md:text-lg">I’m a passionate React.js Developer with 2 years of hands-on experience building modern, responsive, and user-focused web applications. I enjoy transforming ideas into clean, scalable interfaces using React, JavaScript, and modern frontend tools.</p>
+                                <p className="text-gray-500 text-base md:text-lg">I’m a passionate React.js Developer with {experienceYears} years of hands-on experience building modern, responsive, and user-focused web applications. I enjoy transforming ideas into clean, scalable interfaces using React, JavaScript, and modern frontend tools.</p>
                                 <div className="py-8 md:py-0">
                                     <div className="flex items-center gap-2 md:gap-6">
-                                        <h6 className="text-7xl sm:text-9xl md:text-[10rem]">2.8</h6>
+                                        <h6 className="text-7xl sm:text-9xl md:text-[10rem]">{experienceYears}</h6>
                                         <span className="text-base sm:text-xl md:text-4xl text-orange-600">years of excellence(*)</span>
                                     </div>
                                 </div>

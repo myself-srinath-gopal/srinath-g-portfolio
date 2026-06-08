@@ -5,6 +5,11 @@ import { FiGithub } from "react-icons/fi";
 import { Mail, PhoneOutgoing } from 'lucide-react';
 
 const Hero = () => {
+    const startDate = new Date(2023, 3, 1)
+    const now = new Date()
+    const totalMonths = (now.getFullYear() - startDate.getFullYear()) * 12 + (now.getMonth() - startDate.getMonth())
+    const experienceYears = Math.round(totalMonths / 12)
+
     return (
         <>
             <section id='hero' className="relative overflow-hidden pt-35 md:pt-40 pb-12 lg:pb-30 xl:pt-52">
@@ -21,7 +26,7 @@ const Hero = () => {
                                 <h1>React JS Developer</h1>
                             </div>
                             <p className="max-w-md xl:max-w-xl text-gray-500 text-base md:text-lg">
-                                React.js Developer with <strong className="text-orange-600">2.8 years</strong> of professional experience building scalable, responsive web applications using React.js, Redux, JavaScript (ES6+), HTML, CSS, and REST APIs.
+                                React.js Developer with <strong className="text-orange-600">{experienceYears} years</strong> of professional experience building scalable, responsive web applications using React.js, Redux, JavaScript (ES6+), HTML, CSS, and REST APIs.
                             </p>
                         </div>
                         <img lazy={true} src="images/hero-img.jpg" alt="" className="block lg:hidden" width={685} height={650} />
